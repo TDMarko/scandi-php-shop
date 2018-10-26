@@ -81,6 +81,10 @@
 .app .container .product-item:hover {
 	background: #fafafa;
 }
+.app .container .product-not-found {
+	padding: 4px;
+	font-size: 48px;
+}
 
 /*
  * Modal

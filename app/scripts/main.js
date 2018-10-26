@@ -32,6 +32,10 @@ $(document).ready(function() {
 					);
 				});
 			} else {
+				container.append(
+					$('<div>').addClass('product-not-found').html('<div>No data found!</div>')
+				);
+
 				console.log(data.message);
 			}
 		}).catch(error => {
