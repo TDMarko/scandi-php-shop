@@ -21,7 +21,7 @@
 	<div class="modal-add-product invisible" id="modal-add-product">
 		<form name="form-add-product" id="form-add-product" method="post">
 			<div class="form-add-product">
-				<div class="response-row" id="response-row"></div>
+				<div class="response-row invisible" id="response-row"></div>
 				<div class="form-row">
 					<label for="sku">SKU</label>
 					<input type="text" name="sku" id="sku">

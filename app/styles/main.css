@@ -30,6 +30,7 @@
 }
 .app .button.big {
 	margin: 0;
+	padding: 14px 0;
 	width: 500px;
 }
 
@@ -70,6 +71,13 @@
 	-o-animation: fadein 2s;
 	animation: fadein 2s;
 }
+.app .container .product-item div {
+	font-size: 22px;
+	margin-bottom: 6px;
+}
+.app .container .product-item div:nth-child(1) {
+	margin-top: 94px;
+}
 .app .container .product-item:hover {
 	background: #fafafa;
 }
@@ -98,22 +106,28 @@
 .app .form-add-product input,
 .app .form-add-product select {
 	margin-bottom: 10px;
-	padding: 0 10px;
 	height: 48px;
-	min-width: 500px;
+	width: 500px;
 	border-radius: 4px;
 	border: 1px solid #ccc;
 	font-size: 28px;
 }
 .app .form-add-product .response-row {
+	margin-bottom: 20px;
 	width: 500px;
 	height: 40px;
+	line-height: 38px;
+	text-align: center;
 }
 .app .form-add-product .response-row.red {
 	background: #ffb7bc;
 }
 .app .form-add-product .response-row.green {
 	background: #a8ffa8;
+}
+.app .form-add-product .form-row .error {
+	margin-left: 10px;
+	color: #c60c30;
 }
 
 /*
